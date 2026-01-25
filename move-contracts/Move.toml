@@ -1,0 +1,17 @@
+[package]
+name = "SovChain"
+version = "0.1.0"
+authors = ["Ajmal Muhammad <muaj07@gmail.com>", "Tahir Mahmood <tahirmahmood813@gmail.com>"]
+edition = "2024.beta"
+
+[dependencies]
+Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "mainnet-v1.20.0" }
+
+[addresses]
+sovchain = "0x0"
+sui = "0x2"
+
+[dev-addresses]
+sovchain = "0x0"
+
+[dev-dependencies]
