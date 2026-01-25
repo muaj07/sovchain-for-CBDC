@@ -1,13 +1,13 @@
 # Simulation Methodology
 
-Technical specification for reproducing the Monte Carlo simulations in the SovChain manuscript.
+This document explains how to reproduce the Monte Carlo simulations from our paper.
 
 ## Overview
 
-All simulations use:
-- **Sample size**: n = 100,000
-- **Random seed**: 42 (for reproducibility)
-- **Implementation**: Python 3.10+ with NumPy/SciPy
+All simulations use consistent parameters:
+- Sample size: n = 100,000
+- Random seed: 42 (for reproducibility)
+- Implementation: Python 3.10+ with NumPy/SciPy
 
 ## Running Simulations
 

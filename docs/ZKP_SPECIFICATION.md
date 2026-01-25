@@ -1,6 +1,6 @@
 # ZKP Technical Specification
 
-Formal specification of the zero-knowledge proof system for SovChain confidential minting (Section 5).
+Technical details of the zero-knowledge proof system used for confidential minting in SovChain (Section 5).
 
 ## 1. Cryptographic Primitives
 

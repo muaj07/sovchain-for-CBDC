@@ -4,12 +4,12 @@
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 [![Rust 1.70+](https://img.shields.io/badge/rust-1.70+-orange.svg)](https://www.rust-lang.org/)
 
-Artifact repository accompanying the paper:
+Research artifact repository for our paper on sovereign CBDC blockchain architecture:
 
-> **SovChain: A Hybrid Permissioned Blockchain Architecture for Sovereign Central Bank Digital Currency**  
+> **SovChain: A Hybrid Permissioned Blockchain Architecture for Sovereign Central Bank Digital Currency**
 > Submitted to ACM Distributed Ledger Technologies (DLT)
 
-This repository contains source code for reproducing all simulation results and the ZKP circuit implementation described in the manuscript.
+This repository includes all source code needed to reproduce the simulation results and ZKP implementations from the paper.
 
 ---
 
@@ -109,17 +109,16 @@ cd sovchain-for-CBDC
 ### Step 2: Python Environment Setup
 
 ```bash
-# Create virtual environment (recommended)
+# Create and activate virtual environment
 python3 -m venv venv
-source venv/bin/activate  # Linux/macOS
-# or: venv\Scripts\activate  # Windows
+source venv/bin/activate  # On Windows: venv\Scripts\activate
 
 # Install dependencies
 pip install --upgrade pip
 pip install -r requirements.txt
 
-# Verify installation
-python -c "import numpy; import scipy; print('Python environment ready')"
+# Quick check
+python -c "import numpy; import scipy; print('All set!')"
 ```
 
 ### Step 3: Rust Toolchain (for ZKP components)
@@ -410,6 +409,6 @@ This project is licensed under the MIT License. See [LICENSE](LICENSE) for detai
 
 ## Contact
 
-For questions regarding this artifact:
+Questions or issues? Feel free to reach out:
 - Ajmal Muhammad: muaj07@gmail.com
 - Tahir Mahmood: tahirmahmood813@gmail.com
