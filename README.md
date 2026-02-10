@@ -6,8 +6,7 @@
 
 Research artifact repository for our paper on sovereign CBDC blockchain architecture:
 
-> **SovChain: A Hybrid Permissioned Blockchain Architecture for Sovereign Central Bank Digital Currency**
-> Submitted to ACM Distributed Ledger Technologies (DLT)
+> **A Hybrid Permissioned Blockchain Architecture for Sovereign Central Bank Digital Currency**
 
 This repository includes all source code needed to reproduce the simulation results and ZKP implementations from the paper.
 
